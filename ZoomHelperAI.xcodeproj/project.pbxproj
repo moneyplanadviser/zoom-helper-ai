@@ -1,12 +1,16 @@
-ARCHS = arm64
-CODE_SIGN_IDENTITY = -
-CODE_SIGN_STYLE = Automatic
-DEVELOPMENT_TEAM =
-EXECUTABLE_NAME = ZoomHelperAI
-INFOPLIST_FILE = ZoomHelperAI/Info.plist
-MACOSX_DEPLOYMENT_TARGET = 13.0
-PRODUCT_BUNDLE_IDENTIFIER = com.moneyplanadviser.ZoomHelperAI
-PRODUCT_NAME = ZoomHelperAI
-SDKROOT = macosx
-SWIFT_VERSION = 5.9
-TARGETED_DEVICE_FAMILY = 1,2
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		2D3A4A1B2B3C4D5E6F7A8B9C /* ZoomHelperAIApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App/ZoomHelperAIApp.swift; sourceTree = SOURCE_ROOT; };
+		3E4F5A6B7C8D9E0F1A2B3C4D /* AudioRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audio/AudioRecorder.swift; sourceTree = SOURCE_ROOT; };
+		4F5A6B7C8D9E0F1A2B3C4D5E /* HotKeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotKey/HotKeyManager.swift; sourceTree = SOURCE_ROOT; };
+		5A6B7C8D9E0F1A2B3C4D5E6F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		6B7C8D9E0F1A2B3C4D5E6F7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+	};
+	rootObject = 7C8D9E0F1A2B3C4D5E6F7A8B;
+	rootGroup = 8D9E0F1A2B3C4D5E6F7A8B9C;
+}
