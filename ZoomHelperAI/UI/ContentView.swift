@@ -9,7 +9,7 @@ struct ContentView: View {
             Text(recorder.isRecording ? "🎙 Listening…" : "待機中")
                 .font(.headline)
 
-            Text("⌘ + Space を押し続けて話す")
+            Text("⌘ + Shift + Space を押し続けて話す")
                 .font(.caption)
                 .foregroundColor(.secondary)
         }

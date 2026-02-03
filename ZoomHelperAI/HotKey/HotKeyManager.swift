@@ -19,9 +19,10 @@ final class HotKeyManager {
 
     private func handle(_ event: NSEvent) {
         let isCommand = event.modifierFlags.contains(.command)
+        let isShift = event.modifierFlags.contains(.shift)
         let isSpace = event.keyCode == 49   // Space key
 
-        guard isCommand && isSpace else { return }
+        guard isCommand && isShift && isSpace else { return }
 
         if event.type == .keyDown {
             recorder.startRecording()
